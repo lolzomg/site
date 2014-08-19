@@ -165,6 +165,13 @@ html, body {
   z-index: 0;
   position: relative; }
 
+a {
+  color: #fefefe;
+  text-decoration: none;
+  border-bottom: 1px dotted #fefefe; }
+  a:hover {
+    border-bottom: 1px solid #fefefe; }
+
 #bg {
   position: fixed;
   top: 0;
@@ -253,11 +260,24 @@ html, body {
       height: 100%;
       vertical-align: middle;
       text-align: center;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      position: relative; }
       .subMenu .subItem .itemLabel i {
         display: block;
         font-size: 2.5em;
         margin-top: -40px; }
+      .subMenu .subItem .itemLabel a {
+        color: #fefefe;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-decoration: none; }
+        .subMenu .subItem .itemLabel a.off {
+          color: #c0392b;
+          cursor: not-allowed; }
 
 .backLink {
   display: table;

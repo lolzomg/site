@@ -21,6 +21,8 @@ $(document).ready(function() {
 		backLinkClick();
 	});
 	
+	$(".menu").find(".page-about, .page-links").children(".textBlock").css({opacity : 0});
+	
 });
 
 function onLoadIntro() {

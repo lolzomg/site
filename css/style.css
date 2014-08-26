@@ -306,7 +306,7 @@ a:hover {
 .menu .item .textBlock .photo {
   float: left;
   width: 110px;
-  height: 160px;
+  height: auto;
   margin-right: 20px;
 }
 

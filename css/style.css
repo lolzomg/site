@@ -376,12 +376,7 @@ a:hover {
 }
 
 .menu .item:nth-child(4) {
-  background-color: #e74c3c;
-  background-image: -webkit-gradient(linear, left top, right top, from(#e43321), to(#e74c3c));
-  background-image: -webkit-linear-gradient(bottom, #e43321, #e74c3c);
-  background-image: -webkit-linear-gradient(left, #e43321, #e74c3c);
-  background-image: linear-gradient(to right, #e43321, #e74c3c);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#e43321', EndColorStr='#e74c3c');
+  background: #e74c3c;
   /*&:hover {
     background: lighten($color, 5%);  
   }*/
@@ -392,12 +387,7 @@ a:hover {
 }
 
 .menu .item:nth-child(2) {
-  background-color: #2ecc71;
-  background-image: -webkit-gradient(linear, left top, right top, from(#28b363), to(#2ecc71));
-  background-image: -webkit-linear-gradient(bottom, #28b363, #2ecc71);
-  background-image: -webkit-linear-gradient(left, #28b363, #2ecc71);
-  background-image: linear-gradient(to right, #28b363, #2ecc71);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#28b363', EndColorStr='#2ecc71');
+  background: #2ecc71;
   /*&:hover {
     background: lighten($color, 5%);  
   }*/
@@ -408,12 +398,7 @@ a:hover {
 }
 
 .menu .item:nth-child(3) {
-  background-color: #3498db;
-  background-image: -webkit-gradient(linear, left top, right top, from(#2489cc), to(#3498db));
-  background-image: -webkit-linear-gradient(bottom, #2489cc, #3498db);
-  background-image: -webkit-linear-gradient(left, #2489cc, #3498db);
-  background-image: linear-gradient(to right, #2489cc, #3498db);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#2489cc', EndColorStr='#3498db');
+  background: #3498db;
   /*&:hover {
     background: lighten($color, 5%);  
   }*/
@@ -424,12 +409,7 @@ a:hover {
 }
 
 .menu .item:nth-child(1) {
-  background-color: #9b59b6;
-  background-image: -webkit-gradient(linear, left top, right top, from(#8c49a7), to(#9b59b6));
-  background-image: -webkit-linear-gradient(bottom, #8c49a7, #9b59b6);
-  background-image: -webkit-linear-gradient(left, #8c49a7, #9b59b6);
-  background-image: linear-gradient(to right, #8c49a7, #9b59b6);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#8c49a7', EndColorStr='#9b59b6');
+  background: #9b59b6;
   /*&:hover {
     background: lighten($color, 5%);  
   }*/

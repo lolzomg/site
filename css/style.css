@@ -344,10 +344,12 @@ a:hover {
   width: 100%;
   height: 320px;
   text-decoration: none;
+  border: none;
 }
 .subMenu .subItem .itemLabel a.off {
   color: #c0392b;
   cursor: not-allowed;
+  border: none;
 }
 
 .backLink {

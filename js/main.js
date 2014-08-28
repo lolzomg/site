@@ -3,13 +3,16 @@ var openedPage = null;
 
 
 
-//$(document).ready(function() {
-Pace.on("hide", function(){
+$(document).ready(function() {
 	//onLoadIntro();
 	menuGlob = $(".menu");
 	//var subMenu = $(".subMenu");
 	
-	buildMenu(menuGlob, true);
+	Pace.on("done", function(){
+		buildMenu(menuGlob, true);
+	});
+	
+	
 		
 	var item = menuGlob.children(".item");
 	

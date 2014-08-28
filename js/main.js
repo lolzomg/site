@@ -10,10 +10,10 @@ $(document).ready(function() {
 	
 	
 	
-	Pace.on("done", function(){
+	//Pace.on("done", function(){
 		$("#bg").animate({"opacity":"1"}, 500);
 		buildMenu(menuGlob, true);
-	});
+	//});
 	
 	
 		

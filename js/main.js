@@ -4,7 +4,7 @@ var openedPage = null;
 
 
 //$(document).ready(function() {
-Pace.on("done", function(){
+Pace.on("hide", function(){
 	//onLoadIntro();
 	menuGlob = $(".menu");
 	//var subMenu = $(".subMenu");

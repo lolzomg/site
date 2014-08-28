@@ -64,8 +64,9 @@ function animateMenuDrop(menu) {
 	var item = menu.children();
 		
 	item.each(function(i){
-		$(this).delay((i+1)*300).animate({"top" : "0"},600);
-		if(i===3) $(".backLink").animate({"opacity":"1"}, 700)
+		$(this).delay((i+1)*300).animate({"top" : "0"},600, function(){
+			if(i===3) $(".backLink").animate({"opacity":"1"}, 700)	
+		})
 	});
 	
 	

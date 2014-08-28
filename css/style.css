@@ -416,6 +416,9 @@ a:hover {
   width: 60px;
   height: 400px;
   background: rgba(44, 62, 80, 0.3);
+  
+  opacity: 0;
+  
 }
 .backLink .container {
   display: table-cell;

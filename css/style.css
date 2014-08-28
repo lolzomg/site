@@ -288,6 +288,9 @@ a:hover {
   background: url("../img/bg_abs5.jpg") center top no-repeat;
   width: 100%;
   height: 100%;
+  
+  opacity: 0;
+  
 }
 
 #container {

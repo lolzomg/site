@@ -8,11 +8,12 @@ $(document).ready(function() {
 	menuGlob = $(".menu");
 	//var subMenu = $(".subMenu");
 	
-	$("#bg").animate({"opacity":"1"}, 500);
+	
 	
 	Pace.on("done", function(){
+		$("#bg").animate({"opacity":"1"}, 500);
 		buildMenu(menuGlob, true);
-		$(".backLink").animate({"opacity":"1"}, 500);
+		$(".backLink").animate({"opacity":"1"}, 1000);
 	});
 	
 	

@@ -1,7 +1,10 @@
 var menuGlob = null;
 var openedPage = null;
 
-$(document).ready(function() {
+
+
+//$(document).ready(function() {
+Pace.on("done", function(){
 	//onLoadIntro();
 	menuGlob = $(".menu");
 	//var subMenu = $(".subMenu");
@@ -26,16 +29,6 @@ $(document).ready(function() {
 });
 
 function onLoadIntro() {
-	/*var $dots = $(".introDot");
-
-	for (var i = 1; i < 4; ++i) {
-		(function(n) {
-			setTimeout(function() {
-				$dots.append(".");
-			}, 1000*n);
-		}(i));
-	}
-*/
 	var intro = $(".intro");
 	var menu = $(".menu");
 	
@@ -44,8 +37,6 @@ function onLoadIntro() {
 		menu.css({"display" : "block"});
 		
 	});
-
-
 }
 
 function buildMenu(menu, b) {
@@ -76,12 +67,7 @@ function animateMenuPop(menu, reverse) {
 	if(reverse===true) {
 		
 		item.each(function(i){
-			$(this).delay((i+1)*300).animate({"bottom" : "-100%"},600, function(){
-				/*if(i===3) {
-					var indexItem = openedPage.index();
-					openedPage.css({"z-index" : ""}).animate({"width" : 200, left : indexItem * 200}, function(){});
-				}*/
-			})
+			$(this).delay((i+1)*300).animate({"bottom" : "-100%"},600)
 		});
 	};
 		

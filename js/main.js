@@ -13,7 +13,6 @@ $(document).ready(function() {
 	Pace.on("done", function(){
 		$("#bg").animate({"opacity":"1"}, 500);
 		buildMenu(menuGlob, true);
-		$(".backLink").animate({"opacity":"1"}, 1000);
 	});
 	
 	
@@ -67,6 +66,8 @@ function animateMenuDrop(menu) {
 	item.each(function(i){
 		$(this).delay((i+1)*300).animate({"top" : "0"},600)		
 	});
+	
+	$(".backLink").animate({"opacity":"1"}, 1000);
 }
 
 function animateMenuPop(menu, reverse) {
